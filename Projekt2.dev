@@ -27,8 +27,8 @@ CommandLine=
 Folders=
 IncludeVersionInfo=0
 SupportXPThemes=0
-CompilerSet=0
-CompilerSettings=0000000000000000000000000
+CompilerSet=2
+CompilerSettings=00000000g0000000100000000
 UnitCount=2
 
 [VersionInfo]
@@ -61,7 +61,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit2]
-FileName=crc-class\crc.h
+FileName=CRC.hpp
 CompileCpp=1
 Folder=
 Compile=1
