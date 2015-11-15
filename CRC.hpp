@@ -2,12 +2,6 @@
 #include <array>
 #include <cstdint>
 #include <numeric>
- 
-// These headers are only needed for main(), to demonstrate.
-#include <iomanip>
-#include <iostream>
-#include <string>
- 
 // Generates a lookup table for the checksums of all 8-bit values.
 std::array<std::uint_fast32_t, 256> generate_crc_lookup_table() noexcept
 {

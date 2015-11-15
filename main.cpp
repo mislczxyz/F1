@@ -41,10 +41,7 @@ cin >> surname;
 
 cout << "Please fill in your age\n";
 cin >> age;
-{
-auto const s = std::string{name + surname + age};
-std:cout << "Your magical number is: \n";
+auto const s = std::string{name + " " + surname + " " + age};
+std:cout << "Your magical string is: \n";
 std::cout << std::hex << std::setw(8) << std::setfill('0') << crc(s.begin(), s.end()) << '\n';
-}
-return 1;
 }
